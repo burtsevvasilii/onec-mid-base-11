@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3969f45f-a4c3-48d9-b9f8-90354da0ef1b">
+  <name>КЛ_Доработки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Доработки</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.КЛ_Должность</content>
+  <content>Catalog.КЛ_КонтактныеЛица</content>
+  <content>Document.ЗаказПокупателя</content>
+</mdclass:Subsystem>

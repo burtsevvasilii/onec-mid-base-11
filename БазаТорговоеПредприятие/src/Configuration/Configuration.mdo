@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b50d6db4-503e-41f6-8512-4c450df2cd2a">
+  <name>БазаТорговоеПредприятие</name>
+  <synonym>
+    <key>ru</key>
+    <value>База торговое предприятие</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="201dc253-01e3-4a73-a806-d991f1e700e0"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="9f1a5fce-2a7c-4770-b922-10a57c82602b"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="e46f98ae-1dfb-4180-bf5f-ca372b2e842f"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="ae8f64c5-89a4-4c33-96b1-4eb8530799bf"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="d30cc7e6-a15c-4c7e-b807-a2027238862e"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="d3f459d1-ae33-4054-8985-f3e60a768f32"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="10a5719c-abe4-4f99-8f8f-069242ce7bf8"/>
+  <configurationExtensionCompatibilityMode>8.3.23</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.23</compatibilityMode>
+  <languages uuid="85fd3d84-775b-4918-8a7e-eef3c92cf05e">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Администрирование</subsystems>
+  <subsystems>Subsystem.КЛ_Доработки</subsystems>
+  <subsystems>Subsystem.ПокупкиИПродажи</subsystems>
+  <commonModules>CommonModule.ОбщегоНазначенияКлиентСервер</commonModules>
+  <commonModules>CommonModule.ПодключаемыеКоманды</commonModules>
+  <definedTypes>DefinedType.Подразделение</definedTypes>
+  <definedTypes>DefinedType.ФизическоеЛицо</definedTypes>
+  <catalogs>Catalog.ДоговорыКонтрагентов</catalogs>
+  <catalogs>Catalog.ЕдиницыИзмерения</catalogs>
+  <catalogs>Catalog.КЛ_Должность</catalogs>
+  <catalogs>Catalog.КЛ_КонтактныеЛица</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.НоменклатурныеГруппы</catalogs>
+  <catalogs>Catalog.Организации</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
+  <documents>Document.ЗаказПокупателя</documents>
+  <enums>Enum.ВидыДоговоровКонтрагентов</enums>
+  <enums>Enum.ВидыНоменклатуры</enums>
+</mdclass:Configuration>
